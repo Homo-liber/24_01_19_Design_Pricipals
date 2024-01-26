@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+header {
+  width: 80vw;
+  margin: 0 auto;
+  background-color: #f2c3af;
+}
+
+.menu {
+  width: 50%;
+  color: black;
+  display: flex;
+  align-items: end;
+  padding: 30px;
+}
+
+.name_company {
+  font-size: 50px;
+  color: #952723;
+  font-family: "EB Garamond", serif;
+  display: flex;
+  margin-left: 30px;
+}
+
+.name_smalltext {
+  font-size: 20px;
+  color: #952723;
+  font-weight: 200;
+  font-family: "Libre Franklin", sans-serif;
+}
+
+.bg_image {
+  width: 80vw;
+  height: 600px;
+  margin: 0 auto;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../IMG/horizontal.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.slogan {
+  display: flex;
+  width: 30%;
+  padding: 30px;
+  margin: 30px;
+  color: #ffff;
+  font-size: 30px;
+  font-family: "EB Garamond", serif;
+  background-color: rgba(149, 39, 35, 0.5);
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.contact_form {
+  width: 80vw;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: #f2c3af;
+  text-align: center;
+}
+
+input {
+  width: 350px;
+  height: 40px;
+  padding: 5px;
+  margin: 5px;
+  border: none;
+  font-size: 20px;
+}
+
+button {
+  padding: 6px 15px;
+  margin: 5px;
+  width: 350px;
+  height: 40px;
+  background-color: #952723;
+  color: #fff;
+  border: none;
+  font-size: 20px;
+}
+
+.text {
+  width: 80vw;
+  margin: 0 auto;
+  padding: 30px;
+  text-align: justify;
+  font-size: 25px;
+  color: #952723;
+  background-color: #fbeee8;
+  font-family: "Libre Franklin", sans-serif;
+}
+
+.footer {
+  width: 80vw;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: #f2c3af;
+  color: #952723;
+  text-align: center;
+}
